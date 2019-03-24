@@ -59,6 +59,6 @@ public class NewYearClock {
         if(days < 10) day = "0" + days;
         else day = "" + days;
         if(second <= 0 && minutes <= 0 && hours <= 0) System.out.print(ANSI_YELLOW + "\r" + "Happy New Year!! :)" + ANSI_RESET);
-        else System.out.print(ANSI_CYAN + "\r" + day + ":" + hour + ":" + minute + ":" + second1 + ANSI_RESET);
+        else System.out.print("\n" + ANSI_CYAN + "\r" + day + ":" + hour + ":" + minute + ":" + second1 + ANSI_RESET);
     }
 }

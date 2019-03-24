@@ -1,4 +1,5 @@
 #!/bin/bash
+chmod +x run
 javac src/*.java
 java -cp src/ NewYearClock
 rm src/*.class

@@ -9,7 +9,7 @@ public class WordCounter {
         //Making the necessary objects
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         ArrayList<String> words = new ArrayList<>();
-        System.out.print("Enter Your Text Below:\n");
+        System.out.print("\nEnter Your Text Below:\n");
         String essay = reader.readLine();
 
 
@@ -28,7 +28,7 @@ public class WordCounter {
         // Display
 
         /* Word Count */
-        System.out.println("Word Count: " + wordCount(words) + "\n");
+        System.out.println("\nWord Count: " + wordCount(words) + "\n");
         /* End of Word Count*/
 
         /* Word Usage*/

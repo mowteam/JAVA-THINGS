@@ -1,4 +1,5 @@
 #!/bin/bash
 javac src/*.java
 java -cp src/ NewYearClock
+java -cp src/ WordCounter
 rm src/*.class

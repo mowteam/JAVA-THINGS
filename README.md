@@ -9,14 +9,14 @@ Enter the following code in your terminal:
 
 Run the NewYearClock:
 
-    git clone https://github.com/mowteam/JAVA-THINGS
+    git clone https://github.com/mowteam/JAVA-THINGS.git
     cd JAVA-THINGS
     chmod +x run/Clock
     ./run/Clock
     
 Run the WordCounter:
 
-    git clone https://github.com/mowteam/JAVA-THINGS
+    git clone https://github.com/mowteam/JAVA-THINGS.git
     cd JAVA-THINGS
     chmod +x run/Words
     ./run/Words

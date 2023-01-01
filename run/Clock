@@ -1,4 +1,4 @@
 #!/bin/bash
 javac src/*.java
-java -cp src/ NewYearClock
+java -cp src/ NewYearClock yellow
 rm src/*.class
